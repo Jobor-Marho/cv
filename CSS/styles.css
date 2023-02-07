@@ -1,0 +1,167 @@
+body{
+text-align: center;
+margin:0;
+font-family: 'Merriweather',serif;
+
+}
+.top-container{
+padding:100px 10px 0 10px;
+background:#ECFFFB;
+width: 100%;
+
+}
+.middle-container{
+padding:100px 10px 0 10px;
+background: #DDF3F5;
+padding-bottom:50px;
+width: 100%;
+}
+.bottom-container{
+background: #5DACBD;
+padding:0 10px 20px 10px;
+width: 100%;
+}
+
+
+hr{
+border:dotted #5DACBD 5px;
+border-bottom:none;
+width:4%;
+margin:100px auto;
+}
+.me{
+width:250px;
+height:250px;
+border-radius:100%;
+}
+.code{
+width:25%;
+height:25%;
+
+}
+.first{
+float:left;
+margin-right:30px;
+}
+.second{
+float:right;
+margin-left:30px;
+}
+h1{
+font-size:5.625rem;
+font-family: 'Sacramento', cursive;
+margin:50px auto 0 auto;
+color:#5DACBD;
+
+}
+.skill-row{
+width:50%;
+margin:100px auto;
+text-align:left;
+line-height:2;
+}
+.soft{
+margin-top:0;
+}
+h2{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight:normal;
+color:#5DACBD;
+}
+h3{
+font-family: 'Montserrat', sans-serif;
+color:#A7BCB9;
+font-weight:normal;
+}
+
+.btn{
+line-height:3;
+border:solid 1px #75becf;
+border-radius:7px;
+position:relative;
+padding:10px;
+}
+.btn:hover{
+color:#5DACBD;
+background:#ECFFFB;
+border-width:2px;
+font-weight:2;
+}
+.btn:active{
+top:2px;
+}
+
+a{
+color:#75becf;
+text-decoration:none;
+padding:10px;
+
+}
+.bottom-container p{
+margin:0;
+color:#ECFFFB;
+}
+.footer-link{
+line-height:4;
+}
+.footer-link:hover{
+text-decoration:underline;
+color:#ECFFFB;
+}
+.bottom-cloud{
+position:relative;
+left:-350px;
+/* animation-name: bottom_cloud_in; */
+/* animation-iteration-count:infinite; */
+
+
+animation-duration:5s;
+}
+@keyframes bottom_cloud_in{
+    from{
+    display:none;
+    left:-700px;
+    }
+    to{
+    display:inline;
+    left:-350px;
+    }
+}
+.top-cloud{
+position:relative;
+left:350px;
+/* animation-name: top_cloud_in; */
+/* animation-iteration-count:infinite; */
+
+animation-duration:5s;
+}
+
+@keyframes top_cloud_in{
+    from{
+    display:none;
+    left:700px;
+    }
+    to{
+    display:inline;
+    left:350px;
+    }
+}
+@media (max-width: 1024px){
+    .top-container, .middle-container, .bottom-container{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .bottom-cloud{
+        display:none;
+    }
+    .top-cloud{
+        display:none;
+    }
+    .mount{
+        width: 100%;
+        
+    }
+}
