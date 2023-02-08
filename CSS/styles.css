@@ -18,7 +18,7 @@ width: 100%;
 }
 .bottom-container{
 background: #5DACBD;
-padding:0 10px 20px 10px;
+padding:0 10px 50px 10px;
 width: 100%;
 }
 
@@ -30,13 +30,14 @@ width:4%;
 margin:100px auto;
 }
 .me{
-width:250px;
-height:250px;
+/* width:250px;
+height:250px; */
+width:50%;
 border-radius:100%;
 }
 .code{
-width:25%;
-height:25%;
+width:50%;
+height:50%;
 
 }
 .first{
@@ -163,5 +164,29 @@ animation-duration:5s;
     .mount{
         width: 100%;
         
+    }
+    a{
+        color:#a7d4de;
+    }
+    h3 {
+       color:#66b7c9;
+    }
+    .first, .second{
+        float: none;
+    }
+    .first{
+        margin-right:0;  
+    }
+    .second{
+        margin-left:0;
+    }
+    .middle-container{
+        background-color: white;
+    }
+    .skill-row{
+        text-align: center;
+    }
+    .code, .me{
+        width: 100%;
     }
 }
